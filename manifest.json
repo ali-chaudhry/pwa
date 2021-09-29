@@ -1,0 +1,50 @@
+{
+    "short_name": "Test Project",
+    "name": "This is my test project",
+    "icons": [
+      {
+        "src": "/img/icon-512.png",
+        "type": "image/png",
+        "sizes": "1024x1024"
+      },
+      {
+        "src": "/img/icon-192.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6",
+    "shortcuts": [
+      {
+        "name": "What would you like to buy?",
+        "short_name": "Store",
+        "description": "Store listing page.",
+        "url": "/store?source=pwa",
+        "icons": [{ "src": "/img/store.png", "sizes": "1024x1024" }]
+      },
+      {
+        "name": "Cart",
+        "short_name": "Cart",
+        "description": "View weather information for tomorrow",
+        "url": "/cart?source=pwa",
+        "icons": [{ "src": "/img/cart.png", "sizes": "512x512" }]
+      }
+    ],
+    "description": "E-commerce Store",
+    "screenshots": [
+      {
+        "src": "/img/screenshot1.png",
+        "type": "image/png",
+        "sizes": "460x988"
+      },
+      {
+        "src": "/img/screenshot2.png",
+        "type": "image/jpg",
+        "sizes": "466x1002"
+      }
+    ]
+  }
